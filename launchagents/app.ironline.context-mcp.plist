@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>app.ironline.context-mcp</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/amanda/.bun/bin/bun</string>
+        <string>/Users/amanda/Development/git/ironline-context-mcp/http.ts</string>
+    </array>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>AUTH_TOKEN</key>
+        <string>8446cad350994957fe406d058899dd1999d0a8597df38fc89181deaf321341bb</string>
+        <key>PORT</key>
+        <string>3001</string>
+        <key>LANCE_DB_DEFAULT_API_KEY</key>
+        <string>YOUR_LANCE_DB_API_KEY_HERE</string>
+        <key>OPENAI_API_KEY_AMANDA_IRONLINE_AGENT</key>
+        <string>YOUR_OPENAI_API_KEY_HERE</string>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/amanda/Development/git/ironline-context-mcp</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/amanda/Library/Logs/ironline/context-mcp.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/amanda/Library/Logs/ironline/context-mcp.error.log</string>
+</dict>
+</plist>
